@@ -1,0 +1,15 @@
+.banner {
+  background-color: #39db80;
+  width: 100%;
+  text-align: center;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+}
+
+.banner h3 {
+  color: black;
+}
+
+.banner p {
+  color: black;
+}
