@@ -2,7 +2,7 @@ import { store } from "react-notifications-component";
 import data from "./tests/mockData";
 
 export const transformResToOptions = (res) => {
-  if (!res) return [];
+  if (!res || typeof res === "undefined") return [];
   return res.map((mov) => {
     return {
       Title: mov.Title,
